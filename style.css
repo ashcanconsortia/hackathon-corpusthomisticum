@@ -1,0 +1,418 @@
+/*Placeholder CSS File*/
+
+/*Ok, I'll add the fonts*/
+body{
+  font-family: 'Cormorant Garamond','Garamond', serif;
+  color:#ccc;
+  font-size: medium;
+  line-height:120%;
+  background-image:url(images/BooksDark.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Cinzel', 'Garamond', serif;
+  text-align:center;
+}
+
+h1{
+  font-size:2em;
+  line-height:0.5em;
+  color:#be0f34;
+  clear:both;
+}
+
+h2{
+  font-size:1.5em;
+  font-variant:small-caps;
+  color:#fff;
+}
+
+h3{
+  font-size:1.3em;
+  color:#aaa;
+}
+
+h4{
+  font-family:'Cormorant Garamond','Garamond', serif;
+  font-size:1.3em;
+  font-variant:small-caps;
+  font-weight:bold;
+  text-align:left;
+  padding-left:5px;
+  color:#eee;
+}
+
+h5{
+  font-family:'Cormorant Garamond','Garamond', serif;
+  font-size:1em;
+  font-weight:bold;
+  text-align:left;
+  padding-left:5px;
+}
+
+h5{
+  font-family:'Cormorant Garamond','Garamond', serif;
+  font-size:1em;
+  font-style:italic;
+  font-weight:normal;
+  text-align:left;
+  padding-left:5px;
+}
+
+a{
+  text-decoration:none;
+  color:#be0f34;
+}
+
+a:hover{
+  color:#8f0b27;
+}
+
+a img{
+-webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+     -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+        transition: all 1s ease;
+}
+
+a img:hover {
+  -webkit-filter: brightness(150%);
+  filter: brightness(150%);
+}
+
+p{
+  margin:10px;
+  font-size:1.2em;
+}
+
+select{
+  background-color:transparent;
+  font-family: 'Cormorant Garamond','Garamond', serif;
+  font-size:1.2em;
+  padding-right:30px;
+  margin:0px;
+  color:#ccc;
+  border:1px #ccc solid;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#mainheader{
+  width:100%;
+  background-color: rgba(0,33,71,0.9);
+  margin:0;
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:2;
+}
+
+#mainfooter{
+  width:100%;
+  background-color: rgba(0,33,71,0.9);
+  color:#ccc;
+  text-align:right;
+  margin:0;
+  position:fixed;
+  bottom:0;
+  left:0;
+  z-index:2;
+}
+
+#title a{
+  color:#ccc;
+  font-family: 'Cinzel', 'Garamond', serif;
+  font-size:1.5em;
+  float:right;
+  padding-right:20px;
+  padding-top:10px;
+}
+
+.langnav{
+  float:right;
+  text-align:right;
+  vertical-align:top;
+  padding:5px;
+}
+
+#topnav{
+  float:left;
+  text-align:left;
+  vertical-align:top;
+  margin:0px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:30px;
+}
+
+.navlabel{
+  font-size:1.2em;
+}
+
+.langnav img{
+  padding:5px;
+  float:right;
+}
+
+#content{
+  display:table;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+#mindmap-content{
+    background-image:url(images/Mindmap.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    margin:0;
+    padding:0;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+
+.work,.category-work{
+  background-image:url(images/BooksBlur.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  padding:20px;
+  margin-left:450px;
+  margin-bottom:20px;
+  border-radius:50px;
+  font-style:italic;
+  width:50%;
+}
+
+.work:hover,.category-work:hover{
+  background-image:none;
+  background-color:rgba(255,255,255,0.3);
+}
+
+.work h3{
+  text-align:left;
+  line-height:0.8em;
+}
+
+.work a,.category-work a{
+  color:#407bbf;
+}
+
+.work a:hover,.category-work a:hover{
+  color:#002147;
+}
+
+.category-title{
+  background-image:url(images/BooksBlur.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  padding-left:50px;
+  padding-right:50px;
+  margin-top:50px;
+  margin-bottom:0px;
+  border-radius:0px 50px 50px 0px;
+  float:left;
+}
+
+.category-title h1{
+  color:#ccc;
+}
+
+.category-work{
+  margin:10px;
+  padding:10px;
+  width:auto;
+}
+
+.category-table{
+  display:table;
+  margin:10%;
+  margin-bottom:10px;
+  clear:both;
+}
+
+.category-row{
+  display:table-row;
+}
+
+.category-cell{
+  display:table-cell;
+  padding-top:20px;
+  width:33%;
+}
+
+.chron-row{
+  display:table-row;
+}
+
+.chronological-timeline{
+  display:table-cell;
+  width:40%;
+}
+
+.description{
+  font-family
+}
+
+p.text::first-letter{
+  font-family:'Cinzel', 'Garamond', serif;
+  font-size:1.3em;
+  line-height:0.5em;
+  float:left;
+}
+
+.text{
+  padding:10px;
+  line-height:1.1em;
+}
+
+.trans-align{
+  display:table-row;
+  border-spacing:10px;
+}
+
+.lang1,.lang2,.lang{
+  display:table-cell;
+  vertical-align:top;
+  padding:0px;
+  margin:0px;
+  background-image:url(images/BooksBlur.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+.reader-timeline,.reader-timeline1{
+  display:table-cell;
+  vertical-align:center;
+  padding-top:50px;
+  margin:0px;
+  width:25%;
+}
+
+.reader-timeline1{
+  width:35%;
+}
+
+#timeline-left, #timeline-right, #timeline-mid, #timeline1-left, #timeline1-right, #timeline1-mid, #timeline-works-right{
+  position:fixed;
+  top:0;
+  bottom:0;
+  width:8px;
+  left:200px;
+  background-color:#8f0b27;
+  z-index:0;
+}
+
+#timeline-mid{
+  left:210px;
+  background-color:#002147;
+}
+
+#timeline-right{
+  left:220px;
+  background-color:#407bbf;
+}
+
+#timeline1-mid{
+  left:300px;
+  background-color:#002147;
+}
+
+#timeline1-right{
+  left:400px;
+  background-color:#407bbf;
+}
+
+#timeline-works-right{
+  left:525px;
+  background-color:#407bbf;
+}
+
+.dot-left,.dot-mid,.dot-right,.dot-right1,.dot-mid1,.dot-work,.dot-category,.dot-category-reference{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  border:8px #8f0b27 solid;
+  background-color:#8f0b27;
+  overflow:hidden;
+  z-index:1;
+  position:absolute;
+  left:145px;
+  text-align:center;
+}
+
+.dot-left a,.dot-mid a,.dot-right a,.dot-right1 a,.dot-mid1 a,.dot-work a,.dot-category a{
+  color:#ccc;
+  font-size:2em;
+}
+
+.dot-left p,.dot-mid p,.dot-right p,.dot-right1 p,.dot-mid1 p,.dot-work p,.dot-category p{
+  margin-top:35%;
+  font-size:0.8em;
+}
+
+.dot-left img,.dot-mid img,.dot-right img,.dot-right1 img,.dot-mid1 img,.dot-work img,.dot-category img{
+  margin:0;
+}
+
+.dot-mid{
+  left:155px;
+  border-color:#002147;
+  background-color:#002147;
+}
+
+.dot-mid1{
+  left:245px;
+  border-color:#002147;
+  background-color:#002147;
+}
+
+.dot-right{
+  left:165px;
+  border-color:#407bbf;
+  background-color:#407bbf;
+}
+
+.dot-right1{
+  left:345px;
+  border-color:#407bbf;
+  background-color:#407bbf;
+}
+
+.dot-work{
+  border-color:#407bbf;
+  background-color:#407bbf;
+  float:left;
+  position:relative;
+  left:-80px;
+}
+
+.dot-category{
+  border-color:#002147;
+  background-color:#002147;
+  position:relative;
+  float:left;
+  left:-10px;
+  top:-15px;
+}
+
+.dot-category-reference{
+  position:relative;
+  float:left;
+  left:-10px;
+  top:-15px;
+}
